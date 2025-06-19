@@ -36,7 +36,7 @@ function createKeypad() {
   let totalWidth = 3 * btnSize + 2 * padding;
   let totalHeight = 4 * btnSize + 3 * padding;
   let startX = (width - totalWidth) / 2;
-  let startY = (height - totalHeight) / 2 + 30;
+  let startY = (height - totalHeight) / 2 ;
 
   for (let i = 1; i <= 9; i++) {
     let x = startX + ((i - 1) % 3) * (btnSize + padding);
