@@ -147,7 +147,7 @@ function draw() {
     background(10);
     fill(255);
     textSize(28);
-    text("Karte: Links, Rechts, Rechts, Links, Rechts, Links", width / 2, height / 2);
+    text("Karte: Links, Rechts, Rechts, Links, Rechts, Links. \n Code Fragment: 2", width / 2, height / 2);
   }
 }
 
